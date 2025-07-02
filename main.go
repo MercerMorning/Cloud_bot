@@ -20,7 +20,7 @@ var (
 
 const (
 	apiURL         = "https://4cloud.pro/api.php?method=get-consoles-status"
-	errorResponse  = `[{"Status": "Error"}]`
+	errorResponse  = `[{"Status":"Error"}]`
 	checkInterval  = 5 * time.Second
 	configFileName = "chat_ids.json" // Файл для сохранения chat IDs
 )
